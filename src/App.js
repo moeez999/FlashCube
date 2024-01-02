@@ -38,7 +38,7 @@ const App = () => {
               <h1 className="text-5xl font-medium xs:text-center xs:text-3xl xs:font-semibold lg:text-3xl md:text-2xl">
                 Drive More Sales
               </h1>
-              <div className="px-6">
+              <div className="px-6 xs:hidden">
                 <p className="text-2xl border-l-[3px] pl-4 xs:pl-2 border-black font-thin mt-8 xs:w-full xs:text-xl lg:text-base md:text-base">
                   "Boost online traffic and drive sales through a tailored
                   e-commerce website. Flashcube IT. specializes in crafting
@@ -48,7 +48,7 @@ const App = () => {
                   Flashcube IT!"
                 </p>
               </div>
-              <div className="flex xs:justify-center  px-5">
+              <div className="flex xs:justify-center  px-5 xs:hidden">
                 <ul className="mt-8 flex flex-col gap-4 lg:gap-2 xs:items-start">
                   <li className="flex flex-row items-start text-2xl font-[500] gap-3 xs:text-xl lg:text-lg md:text-lg  ">
                     <img src="Frame.png" alt="" /> 24/7 Customer Support
@@ -83,7 +83,7 @@ const App = () => {
                 <span className="text-[#133384] "> ecommerce web design </span>
                 and development services
               </h1>
-              <p className="text-xl xs:text-lg mt-6 xl:text-2xl">
+              <p className="text-xl xs:text-lg mt-6 xl:text-2xl ">
                 In the dynamic landscape of e-commerce, competition is fierce.
                 That's why our services in e-commerce website design and
                 development establish a robust foundation for success,

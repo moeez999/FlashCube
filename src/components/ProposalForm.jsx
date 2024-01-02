@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const ProposalForm = () => {
   const [formData, setFormData] = useState({
@@ -12,10 +13,12 @@ const ProposalForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+    // Clear the specific error when the user starts typing again
+    setFormErrors((prevErrors) => ({ ...prevErrors, [name]: "" }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Basic form validation
@@ -34,16 +37,35 @@ const ProposalForm = () => {
     }
 
     if (Object.keys(errors).length === 0) {
-      // Form submission logic (replace with your actual logic)
-      console.log("Form submitted:", formData);
+      try {
+        const template = {
+          from_name: formData.fullName,
+          to_name: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        };
 
-      // Clear form fields
-      setFormData({
-        fullName: "",
-        email: "",
-        phone: "",
-        message: "",
-      });
+        // Use Email.js to send the email with a template
+        const response = await emailjs.send(
+          "serviceid",
+          "templateid",
+          template,
+          "privatekey"
+        );
+
+        // Form submission successful
+        console.log("Email sent:", response);
+
+        // Clear form fields
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      } catch (error) {
+        console.error("Error sending email:", error);
+      }
     } else {
       setFormErrors(errors);
     }
