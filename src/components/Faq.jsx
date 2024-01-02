@@ -81,7 +81,9 @@ const Faq = () => {
             {faq.question}
           </div>
           {activeIndex === index && (
-            <div className="faq-answer text-[#7E7E7E]">{faq.answer}</div>
+            <div className="flex ans justify-center w-[80%] items-center pl-12">
+              <div className="faq-answer text-[#7E7E7E] ">{faq.answer}</div>
+            </div>
           )}
         </div>
       ))}

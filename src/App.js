@@ -26,8 +26,8 @@ const App = () => {
             </button>
           </div>
         </div>
-        <section class="flex flex-row justify-center xs:flex-col lg:gap-6 ">
-          <div className="w-[45%] xs:w-full mt-20 xs:mt-10">
+        <section class="flex flex-row justify-center xs:flex-col mds:flex-col lg:gap-6  ">
+          <div className="w-[45%] mds:w-full xs:w-full mt-20 xs:mt-10 mds:flex mds:justify-center">
             <div className="flex flex-col gap-2 xs:px-4">
               <h1 className="text-5xl font-medium xs:text-center xs:text-3xl xs:font-semibold lg:text-3xl md:text-2xl">
                 <span className="text-[#133384]">Ecommerce</span> Website
@@ -38,7 +38,7 @@ const App = () => {
               <h1 className="text-5xl font-medium xs:text-center xs:text-3xl xs:font-semibold lg:text-3xl md:text-2xl">
                 Drive More Sales
               </h1>
-              <div className="px-6 xs:hidden">
+              <div className="px-6 xs:hidden mds:hidden">
                 <p className="text-2xl border-l-[3px] pl-4 xs:pl-2 border-black font-thin mt-8 xs:w-full xs:text-xl lg:text-base md:text-base">
                   "Boost online traffic and drive sales through a tailored
                   e-commerce website. Flashcube IT. specializes in crafting
@@ -48,7 +48,7 @@ const App = () => {
                   Flashcube IT!"
                 </p>
               </div>
-              <div className="flex xs:justify-center  px-5 xs:hidden">
+              <div className="flex xs:justify-center  px-5 xs:hidden mds:hidden">
                 <ul className="mt-8 flex flex-col gap-4 lg:gap-2 xs:items-start">
                   <li className="flex flex-row items-start text-2xl font-[500] gap-3 xs:text-xl lg:text-lg md:text-lg  ">
                     <img src="Frame.png" alt="" /> 24/7 Customer Support
@@ -66,17 +66,17 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className="child-hero-bg  relative w-[45%] xs:bg-none xs:w-[90%] xs:ml-6 lg:bg-none md:bg-none">
+          <div className="child-hero-bg ms:place-items-center ms:grid mds:grid mds:place-items-center mds:bg-none hero-section mds:w-full  w-[45%] xs:bg-none xs:w-[90%] xs:ml-6 lg:bg-none md:bg-none">
             <ProposalForm />
           </div>
         </section>
       </div>
       <section className="mt-10 pt-8 xsss:mt-1 xsss:pt-1">
-        <div className="flex flex-row justify-center gap-6 xs:flex-col lg:flex-col md:flex-col xs:mt-16 xs:px-4 ">
-          <div className="w-[45%] mt-8 xsss:mt-2 xs:w-full md:w-full md:px-8 lg:px-8 lg:w-full md:full  xl:flex xl:flex-col xl:items-center">
+        <div className="flex flex-row mds:px-16 mds:flex-col justify-center gap-6 xs:flex-col lg:flex-col md:flex-col xs:mt-16 xs:px-4 ">
+          <div className="w-[45%] mt-8 mds:w-full xsss:mt-2 xs:w-full md:w-full md:px-8 lg:px-8 lg:w-full md:full  xl:flex xl:flex-col xl:items-center">
             <img src="image-5.png" alt="" />
           </div>
-          <div className="w-[45%] md:w-full lg:w-full md:px-8 xs:w-full xl:flex xl:flex-col xl:items-center">
+          <div className="w-[45%] mds:w-full md:w-full lg:w-full md:px-8 xs:w-full xl:flex xl:flex-col xl:items-center">
             <div className="w-[85%] lg:w-full lg:px-8 mt-14 xs:w-full xs:flex xs:flex-col xs:items-center-center xs:px-4 ">
               <h1 className="text-4xl font-medium word-space-8 xs:text-2xl xs:font-semibold xs:text-start xl:text-5xl">
                 Drive more sales with
@@ -137,13 +137,13 @@ const App = () => {
           +91 9953156485
         </button>
       </div>
-      <section className="mt-24">
+      <section className="mt-24 ">
         <div>
-          <h1 className="text-4xl xs:text-2xl text-center font-semibold">
+          <h1 className="text-4xl xs:text-2xl text-center font-semibold mds:px-2">
             Get Exclusive Benefits With
             <span className=" text-[#133384]">Flashcube IT.</span>
           </h1>
-          <p className="text-xl text-center mt-4">
+          <p className="text-xl text-center mt-4 mds:px-4">
             "Our goal is to streamline the operations of ecommerce websites and
             unite them on a singular platform, transforming them into proficient
             travel professionals."
@@ -153,12 +153,12 @@ const App = () => {
           <BenefitCard />
         </div>
         <div className="xs:px-12">
-          <h1 className="text-center text-4xl mt-24 xs:text-2xl  font-semibold">
+          <h1 className="text-center text-4xl mt-24 mds:text-3xl mds:px-4 xs:text-2xl  font-semibold">
             <span className="text-[#133384]">eCommerce</span> Web/App
             Development <span className="text-[#133384]">Strategy</span>
           </h1>
         </div>
-        <div className="xs:px-12 mt-16 flex justify-center lg:px-4 md:px-8">
+        <div className="xs:px-12 mt-16 mds:px-8 flex justify-center lg:px-4 md:px-8">
           <img src="image-4.png" alt="" />
         </div>
         <div className="flex flex-row justify-evenly bg-[#133384] py-5 mt-24 xs:flex-col xs:items-center xs:gap-4">
@@ -203,11 +203,11 @@ const App = () => {
         </div>
       </section>
       <section className="mt-24">
-        <div className="flex flex-row justify-center gap-8 items-center  md:flex-col ">
-          <div className="w-[45%]  xs:hidden xl:flex xl:flex-col xl:items-center md:w-[90%]">
+        <div className="flex flex-row justify-center gap-8 items-center  md:flex-col mds:flex-col">
+          <div className="w-[45%] mds:w-full mds:px-8 xs:hidden xl:flex xl:flex-col xl:items-center md:w-[90%]">
             <img src="media.png" alt="" />
           </div>
-          <div className="w-[45%] px-4 xs:w-full md:w-[90%]">
+          <div className="w-[45%] mds:w-full mds:px-8 px-4 xs:w-full md:w-[90%]">
             <p className="text-lg font-semibold support xs:text-center">
               SUPPORT
             </p>
@@ -221,8 +221,8 @@ const App = () => {
         </div>
       </section>
       <section className="bg-4 mt-16 xs:px-4 ">
-        <div className="flex flex-row justify-center md:justify-start gap-8 lg:gap-10 items-center px-8 py-8 xsss:px-1 xs:flex-col">
-          <div className="w-[40%] mt-8 xs:w-full lg:w-full xl:flex xl:flex-col xl:items-center">
+        <div className="flex flex-row justify-center md:grid gap-8 lg:gap-10 items-center px-8 py-8 xsss:px-1 xs:flex-col">
+          <div className="w-[40%] mds:px-10 mds:w-full md:w-full mt-8 xs:w-full lg:w-full xl:flex xl:flex-col xl:items-center">
             <p className="text-2xl text-white">SEND MESSAGE</p>
             <h1 className="text-5xl text-white word-spacing-4 xs:text-4xl">
               DROP <span className="font-semibold"> US A LINE</span>
@@ -231,7 +231,7 @@ const App = () => {
               </div>
             </h1>
           </div>
-          <div className="w-[40%] mt-8 xs:hidden md:hidden lg:w-full xl:flex xl:flex-col xl:items-center">
+          <div className="w-[40%] mt-8 hide xs:hidden md:hidden lg:w-full xl:flex xl:flex-col xl:items-center">
             <h1 className="text-4xl text-white mt-4">
               All-IN-One Website Solution
             </h1>

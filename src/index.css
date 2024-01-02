@@ -21,7 +21,7 @@ body {
 }
 
 .word-space-8 {
-  word-spacing: 2rem;
+  word-spacing: 1rem;
 }
 
 .set-web-btn {
@@ -60,6 +60,19 @@ body {
 
 .word-spacing-4 {
   word-spacing: 0.5rem;
+}
+
+@media screen and (width: 1278px) {
+  .hero-section {
+    display: contents;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .hide {
+    display: none !important;
+  }
 }
 
 @media screen and (min-width: 1913px) {

@@ -9,6 +9,8 @@ module.exports = {
       lg: { min: "1023px", max: "1279px" },
       xl: { min: "1439px" },
       md: { min: "768px", max: "1022px" },
+      mds: { min: "432px", max: "767px" },
+      ms: { width: "1278px" },
     },
     extend: {},
   },
