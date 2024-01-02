@@ -50,7 +50,7 @@ const ProposalForm = () => {
   };
 
   return (
-    <div className="max-w-md  mt-24  p-6 bg-gray-100 rounded-[2rem] shadow-md bg-white flex flex-col items-center justify-center space-y-4 ">
+    <div className="xl:absolute xl:top-[3rem] xl:left-[11rem] max-w-md xs:max-w-sm lg:max-w-sm  xs:mt-10 mt-24  px-6 py-12 rounded-[2rem] shadow-md bg-white flex flex-col items-center justify-center space-y-4 ">
       <h2 className="text-lg">Request For Proposal</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -101,12 +101,14 @@ const ProposalForm = () => {
           <p className="text-red-500">{formErrors.message}</p>
         )}
 
-        <button
-          type="submit"
-          className="w-56 py-2 px-4 bg-[#133384] text-white rounded-lg"
-        >
-          Submit
-        </button>
+        <div className="flex justify-center">
+          <button
+            type="submit"
+            className="w-56 py-2 px-4 bg-[#133384] xs:bg-[#2E85A3] text-white rounded-lg"
+          >
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );

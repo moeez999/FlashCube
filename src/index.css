@@ -1,13 +1,105 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Poppins;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hero-bg {
+  background: url(../public/hero-background.png);
+  /* height: 120vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.child-hero-bg {
+  background: url(../public/bg-2.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
+}
+
+.word-space-8 {
+  word-spacing: 2rem;
+}
+
+.set-web-btn {
+  border-radius: 0 2rem;
+}
+.logo-2 {
+  display: none;
+}
+
+.active {
+  background-color: #f8f8f8;
+}
+@media screen and (max-width: 431px) {
+  .logo-2 {
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  .word-space-8 {
+    word-spacing: 1.5rem;
+  }
+}
+.support {
+  background: linear-gradient(90deg, #f48075 0%, #e886e4 50%, #aa71f5 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.bg-4 {
+  background: url(../public/bg-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.word-spacing-4 {
+  word-spacing: 0.5rem;
+}
+
+@media screen and (min-width: 1913px) {
+  .child-hero-bg {
+    background: url(../public/bg-2.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: 85%;
+  }
+}
+@media screen and (min-width: 2165px) {
+  .child-hero-bg {
+    background: url(../public/bg-2.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: 80%;
+  }
+}
+@media screen and (min-width: 2223px) {
+  .child-hero-bg {
+    background: url(../public/bg-2.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: 75%;
+  }
+}
+
+@media screen and (min-width: 2430px) {
+  .child-hero-bg {
+    background: url(../public/bg-2.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: 70%;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .child-hero-bg {
+    background: url(../public/bg-2.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: 65%;
+  }
 }
