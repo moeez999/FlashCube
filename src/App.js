@@ -67,32 +67,13 @@ const App = () => {
             </div>
           </div>
           <div className="child-hero-bg  relative w-[45%] xs:bg-none xs:w-[90%] xs:ml-6 lg:bg-none md:bg-none">
-            {/* <div className="xs:hidden">
-              <img
-                className="absolute top-[9.5rem] w-[45rem]"
-                src="1.png"
-                alt=""
-              />
-              <img className="absolute bottom-0 left-28  " src="2.png" alt="" />
-              <img
-                className="absolute right-36 top-24 w-[13rem]"
-                src="3.png"
-                alt=""
-              />
-              <img
-                className="absolute left-[-1.5rem] top-[0rem]"
-                src="4.png"
-                alt=""
-              />
-            </div> */}
-
             <ProposalForm />
           </div>
         </section>
       </div>
-      <section className="mt-10 pt-8">
+      <section className="mt-10 pt-8 xsss:mt-1 xsss:pt-1">
         <div className="flex flex-row justify-center gap-6 xs:flex-col lg:flex-col md:flex-col xs:mt-16 xs:px-4 ">
-          <div className="w-[45%] mt-8 xs:w-full md:w-full md:px-8 lg:px-8 lg:w-full md:full  xl:flex xl:flex-col xl:items-center">
+          <div className="w-[45%] mt-8 xsss:mt-2 xs:w-full md:w-full md:px-8 lg:px-8 lg:w-full md:full  xl:flex xl:flex-col xl:items-center">
             <img src="image-5.png" alt="" />
           </div>
           <div className="w-[45%] md:w-full lg:w-full md:px-8 xs:w-full xl:flex xl:flex-col xl:items-center">
@@ -250,7 +231,7 @@ const App = () => {
               </div>
             </h1>
           </div>
-          <div className="w-[40%] mt-8 md:hidden lg:w-full xl:flex xl:flex-col xl:items-center">
+          <div className="w-[40%] mt-8 xs:hidden md:hidden lg:w-full xl:flex xl:flex-col xl:items-center">
             <h1 className="text-4xl text-white mt-4">
               All-IN-One Website Solution
             </h1>

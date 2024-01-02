@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 gap-8 mt-16">
+    <div className="grid xs:grid-cols-1 grid-cols-3 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 gap-8 mt-16">
       <div className="border-2 border-black rounded-[3rem] w-96 xs:w-[21rem]  px-6 py-6 xsss:w-[19rem]">
         <h2 className="text-2xl font-semibold text-center mt-4">Premium</h2>
         <p className="text-center text-lg mt-4">

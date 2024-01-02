@@ -70,6 +70,14 @@ body {
     background-size: 85%;
   }
 }
+@media screen and (max-width: 769px) {
+  .child-hero-bg {
+    background: url(../public/bg-2.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: 85%;
+  }
+}
 @media screen and (min-width: 2165px) {
   .child-hero-bg {
     background: url(../public/bg-2.png);
