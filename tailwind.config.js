@@ -6,7 +6,7 @@ module.exports = {
       xs: { max: "431px" },
       xss: { max: "376px" },
       xsss: { max: "321px" },
-      lg: { min: "1023px", max: "1438px" },
+      lg: { min: "1023px", max: "1279px" },
       xl: { min: "1439px" },
       md: { min: "768px", max: "1022px" },
     },
