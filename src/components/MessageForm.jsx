@@ -25,13 +25,13 @@ const MessageForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="lg:w-[80%] grid grid-cols-1 xsss:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4 w-[34rem] xs:w-full w-fix ">
+      <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-8 gap-y-4 max-w-2xl mx-auto">
         <input
           type="text"
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-64 xs:text-base xs:px-2 xs:py-3 xs:w-[10rem] xsss:w-[8.5rem] text-black lg:w-[13.5rem]"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
           placeholder="Your Name"
         />
         <input
@@ -39,7 +39,7 @@ const MessageForm = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-64 xs:text-base xs:px-2 xs:py-3 xs:w-[10rem] xsss:w-[8.5rem] text-black lg:w-[13.5rem]"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
           placeholder="Your Email"
         />
         <input
@@ -47,7 +47,7 @@ const MessageForm = () => {
           name="companyName"
           value={formData.companyName}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-64 xs:text-base xs:px-2 xs:py-3 xs:w-[10rem] xsss:w-[8.5rem] text-black lg:w-[13.5rem]"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
           placeholder="Company Name"
         />
         <input
@@ -55,16 +55,16 @@ const MessageForm = () => {
           name="topic"
           value={formData.topic}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-64 xs:text-base xs:px-2 xs:py-3 xs:w-[10rem] xsss:w-[8.5rem] text-black lg:w-[13.5rem]"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
           placeholder="Your Topic"
         />
 
         <textarea
           name="message"
-          rows="4"
+          rows="3"
           value={formData.message}
           onChange={handleChange}
-          className="w-full p-2 mb-4 border rounded-lg col-span-2"
+          className="w-full p-2 mb-4 border rounded-lg col-span-2 md:col-span-2 lg:col-span-2"
           required
         ></textarea>
       </div>
