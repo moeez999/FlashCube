@@ -34,13 +34,16 @@ body {
 .active {
   background-color: #f8f8f8;
 }
-@media screen and (max-width: 431px) {
+
+@media screen and (max-width: 600px) {
   .logo-2 {
     display: block;
   }
   .logo {
     display: none;
   }
+}
+@media screen and (max-width: 431px) {
   .word-space-8 {
     word-spacing: 1.5rem;
   }
@@ -69,6 +72,50 @@ body {
   }
 }
 
+@media screen and (max-width: 631px) {
+  .w-fix {
+    width: 30rem;
+  }
+
+  .w-fix input {
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .w-fix {
+    width: 27rem;
+  }
+
+  .w-fix input {
+    width: 12rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .w-fix {
+    width: 24rem;
+  }
+
+  .w-fix input {
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1273px) {
+  .w-fix input {
+    width: 10.5rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .w-fix {
+    width: 20rem;
+  }
+
+  .w-fix input {
+    width: 9.2rem;
+  }
+}
 @media screen and (max-width: 1025px) {
   .hide {
     display: none !important;

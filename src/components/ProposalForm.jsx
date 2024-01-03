@@ -72,7 +72,7 @@ const ProposalForm = () => {
   };
 
   return (
-    <div className="ms:mt-1 xl:absolute xl:top-[3rem] xl:left-[11rem] max-w-md xs:max-w-sm lg:max-w-sm  xs:mt-10 mt-24  px-6 py-12 rounded-[2rem] shadow-md bg-white flex flex-col items-center justify-center space-y-4 ">
+    <div className="ms:mt-1 max-w-md xs:max-w-sm lg:max-w-sm  xs:mt-10 mt-24  px-6 py-12 rounded-[2rem] shadow-md bg-white flex flex-col items-center justify-center space-y-4 ">
       <h2 className="text-lg">Request For Proposal</h2>
       <form onSubmit={handleSubmit}>
         <input

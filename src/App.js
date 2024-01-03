@@ -66,7 +66,7 @@ const App = () => {
               </div>
             </div>
           </div>
-          <div className="child-hero-bg ms:place-items-center ms:grid mds:grid mds:place-items-center mds:bg-none hero-section mds:w-full  w-[45%] xs:bg-none xs:w-[90%] xs:ml-6 lg:bg-none md:bg-none">
+          <div className="child-hero-bg ms:place-items-center mds:mt-4 ms:grid mds:grid mds:place-items-center mds:bg-none hero-section mds:w-full  w-[45%] xs:bg-none xs:w-[90%] xs:ml-6 lg:bg-none md:bg-none">
             <ProposalForm />
           </div>
         </section>
