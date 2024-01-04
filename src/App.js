@@ -83,7 +83,7 @@ const App = () => {
                 <span className="text-[#133384] "> ecommerce web design </span>
                 and development services
               </h1>
-              <p className="text-xl xs:text-lg mt-6 xl:text-2xl xs:text-center">
+              <p className="text-xl xs:text-lg mt-6 xl:text-2xl xs:text-start">
                 In the dynamic landscape of e-commerce, competition is fierce.
                 That's why our services in e-commerce website design and
                 development establish a robust foundation for success,
