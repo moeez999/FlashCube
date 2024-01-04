@@ -83,7 +83,7 @@ const App = () => {
                 <span className="text-[#133384] "> ecommerce web design </span>
                 and development services
               </h1>
-              <p className="text-xl xs:text-lg mt-6 xl:text-2xl ">
+              <p className="text-xl xs:text-lg mt-6 xl:text-2xl xs:text-center">
                 In the dynamic landscape of e-commerce, competition is fierce.
                 That's why our services in e-commerce website design and
                 development establish a robust foundation for success,
@@ -140,7 +140,7 @@ const App = () => {
       <section className="mt-24 ">
         <div>
           <h1 className="text-4xl xs:text-2xl text-center font-semibold mds:px-2">
-            Get Exclusive Benefits With
+            Get Exclusive Benefits With{" "}
             <span className=" text-[#133384]">Flashcube IT.</span>
           </h1>
           <p className="text-xl text-center mt-4 mds:px-4">
@@ -303,13 +303,12 @@ const App = () => {
       <section className="flex justify-center mt-10">
         <div className="flex flex-col items-center w-[90%] gap-8">
           <img className="xs:w-64" src="logo.png" alt="" />
-          <p className="text-center text-lg xs:text-start">
+          <p className="text-center text-lg  xs:text-center">
             “Embark on a digital journey with our expert website development
             services. We craft seamless and visually stunning websites that not
             only capture your brand essence but also deliver an unparalleled
-            user experience. Elevate your online presence with cutting-edge
-            design, functionality, and a touch of creativity. Let's bring your
-            vision to life, one pixel at a time.”
+            user experience. Let's bring your vision to life, one pixel at a
+            time.”
           </p>
           <div className="flex flex-row justify-center gap-10 xs:flex-col xs:gap-2">
             <p className="flex flex-row gap-8 items-center text-[#133384] xs:font-medium">

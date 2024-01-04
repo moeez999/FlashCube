@@ -31,7 +31,7 @@ const MessageForm = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black xs:text-xs"
           placeholder="Your Name"
         />
         <input
@@ -39,7 +39,7 @@ const MessageForm = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black xs:text-xs"
           placeholder="Your Email"
         />
         <input
@@ -47,7 +47,7 @@ const MessageForm = () => {
           name="companyName"
           value={formData.companyName}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black xs:text-xs"
           placeholder="Company Name"
         />
         <input
@@ -55,7 +55,7 @@ const MessageForm = () => {
           name="topic"
           value={formData.topic}
           onChange={handleChange}
-          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:text-base xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black"
+          className="mb-2 text-xl px-4 py-4 rounded-md w-full sm:w-full md:w-full lg:w-64 xs:px-2 xs:py-3 xs:w-full xsss:w-full text-black xs:text-xs"
           placeholder="Your Topic"
         />
 
