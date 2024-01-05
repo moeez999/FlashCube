@@ -34,7 +34,7 @@ let cardData = [
 
 const BenefitCard = () => {
   return (
-    <div className="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 lgg:grid-cols-3 xs:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
       {cardData.map((card, index) => (
         <div
           className="flex flex-col items-center px-6 py-6 gap-4 xs:py-4 xs:px-4  border-[#737373] border-[1.5px] w-[25rem] xs:w-[20rem] rounded-[2rem] "

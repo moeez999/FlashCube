@@ -44,7 +44,7 @@ let cardData = [
 
 const ServiceCard = () => {
   return (
-    <div className="grid grid-cols-1 xs:grid-cols-1  md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
+    <div className="grid grid-cols-1 xs:grid-cols-1 lgg:grid-cols-4 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
       {cardData.map((card, index) => (
         <div
           className="bg-[#F8F8F8] flex flex-col items-start px-6 py-4 gap-4 xs:py-4 xs:px-4 w-[18rem] xs:w-[20rem] rounded-lg"
